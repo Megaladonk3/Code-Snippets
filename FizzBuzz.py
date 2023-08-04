@@ -9,8 +9,8 @@ for i in range(1, 101):
     elif i % 3 == 0:
         print("Fizz")
         continue
-    elif i % 3 == 0:
-        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
         continue
 
     print(i)
